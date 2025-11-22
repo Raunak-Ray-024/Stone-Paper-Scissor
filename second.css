@@ -1,0 +1,26 @@
+*{
+    margin: 0px;padding: 0px;background-color: rgb(139, 88, 69);
+}
+.heading{
+    background-color: black;color: aliceblue;text-align: center;height: 50px;padding: 25px;
+}
+.choice{
+    height:150px;width:150px;border-radius: 50%;display: flex;justify-content: center;align-items: center;
+}
+img{
+    height: 100px;width: 100px;object-fit: cover;border-radius: 50%;
+}
+.choices{
+    display: flex;justify-content: center;align-items: center;margin-top: 50px;
+}
+.choice:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: aqua;
+}
+.scoreboard{
+    display: flex;justify-content: center;gap: 50px;border: 100;margin-top: 50px;align-items: center;
+}
+#msg{
+    background-color: cadetblue;color: black;text-align: center;margin-top: 50px;height: 30px;font-size: larger;padding: 15px;
+}
